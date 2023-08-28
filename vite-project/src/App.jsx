@@ -5,6 +5,8 @@ import './App.css'
 import Home from './pages/Home'
 import * as React from 'react'
 import { ChakraProvider } from '@chakra-ui/react'
+import Product from './pages/Product'
+import ProductDetail from './pages/ProductDetail'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,7 +15,9 @@ function App() {
     <>
     <ChakraProvider>
     <div className="container">
-        <Home/>
+        {/* <Home/> */}
+        {/* <Product/> */}
+        <ProductDetail/>
     </div>
 
     </ChakraProvider>
