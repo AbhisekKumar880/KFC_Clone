@@ -2,6 +2,7 @@ import React from "react";
 import Card from "../../components/Card";
 import Header from "../../components/Header";
 import Slider from "../../components/Slider";
+import Footer from "../../components/Footer";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
           <Card />
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };
