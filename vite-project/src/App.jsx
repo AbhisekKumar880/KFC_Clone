@@ -15,9 +15,9 @@ function App() {
     <>
     <ChakraProvider>
     <div className="container">
-        {/* <Home/> */}
+        <Home/>
         {/* <Product/> */}
-        <ProductDetail/>
+        {/* <ProductDetail/> */}
     </div>
 
     </ChakraProvider>
