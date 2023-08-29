@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../../components/Header'
-//import Footer from '../../components/Footer'
+import Footer from '../../components/Footer'
 import { Link } from 'react-router-dom'
 
 
@@ -22,13 +22,13 @@ const Login = () => {
         <hr/>
       <form className="row g-3">
         <div className="col-md-12">
-          <label for="inputEmail4" className="form-label">
+          <label htmlFor="inputEmail4" className="form-label">
             Email
           </label>
           <input type="email" className="form-control" id="inputEmail4" />
         </div> 
         <div className="col-md-12">
-          <label for="inputPassword4" className="form-label">
+          <label htmlFor="inputPassword4" className="form-label">
             Password
           </label>
           <input type="password" className="form-control" id="inputPassword4" />
@@ -48,11 +48,11 @@ const Login = () => {
                     
                 </div> 
                 <p><b>If You Have Money Then Register For The New Taste Of World...</b></p>
-                <Link to="/register" type="button" class="btn btn-outline-danger">NEW CUSTOMER</Link>
+                <Link to="/register" type="button" className="btn btn-outline-danger">NEW CUSTOMER</Link>
             </div>
         </div>
       </div>
-
+      <Footer/>
 
     </>
   )
