@@ -9,7 +9,7 @@ const Home = () => {
       <Header />
       <Slider />
       <div className="lead-text">
-        <h3>SIGNETURE BOXES</h3>
+        <h3>SIGNATURE BOXES</h3>
       </div>
       <div className="row">
         <div className="col-md-4">
