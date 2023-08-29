@@ -5,6 +5,7 @@ import './App.css'
 import Home from './pages/Home'
 import * as React from 'react'
 import { ChakraProvider } from '@chakra-ui/react'
+
 import Register from './pages/Register'
 import Login from './pages/Login'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -17,6 +18,8 @@ import{
   Route,
 } from "react-router-dom";
 
+import Product from './pages/Product'
+import ProductDetail from './pages/ProductDetail'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,6 +28,7 @@ function App() {
     
     <ChakraProvider>
     <div className="container">
+
          
      <BrowserRouter>
       <Routes>
@@ -43,6 +47,7 @@ function App() {
     
          
          
+
     </div>
 
     </ChakraProvider>
