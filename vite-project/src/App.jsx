@@ -28,31 +28,17 @@ function App() {
     
     <ChakraProvider>
     <div className="container">
-
-         
      <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-           {/* <Route path="/products" element={<Product />}/>  */}
-           {/* <Route path="/product-detail" element={<ProductDetail />} />  */}
+          <Route path="/products" element={<Product />}/>  
+          <Route path="/product-detail" element={<ProductDetail />} />  
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
-           {/* <Route path="/Home" element={<Home />} />    */}
-           
-          
-          
-        
       </Routes>
-    </BrowserRouter>   
-    
-         
-         
-
+    </BrowserRouter>
     </div>
-
     </ChakraProvider>
-    
-  )
+  );
 }
-
 export default App;
