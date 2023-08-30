@@ -17,7 +17,7 @@ const Footer = () => {
       <div style={rowone}>
         <img
           styles={{ marginTop: "-60px" }}
-          src="https://images.ctfassets.net/wtodlh47qxpt/25FSYFuEtGct8NSrtpKe6d/b602f6fe0bf294e6a6dff5d7648bf594/KFC_Logo.svg"
+          src="https://foodexpress.app/storage/app/public/business/2023-03-16-6413256d977dd.png"
           alt=""
         />
         <div className={styles.catsec}>
