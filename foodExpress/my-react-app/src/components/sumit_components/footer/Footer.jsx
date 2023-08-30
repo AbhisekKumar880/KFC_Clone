@@ -23,7 +23,7 @@ const Footer = () => {
         <div className={styles.catsec}>
           <div>
             <ul className={styles.ultag}>
-              <li className={styles.lis}>KFC Food</li>
+              <li className={styles.lis}>foodExpress Food</li>
               <li className={styles.lis}>Menu</li>
               <li className={styles.lis}>Order Lookup</li>
               <li className={styles.lis}>Gift Card</li>
@@ -34,7 +34,7 @@ const Footer = () => {
               <li className={styles.lis}>Support</li>
               <li  className={styles.lis}>Get Help</li>
               <li onClick={()=>navigate("/contactUs")} className={styles.lis}>Contact Us</li>
-              <li className={styles.lis}>KFC Feedback</li>
+              <li className={styles.lis}>foodExpress Feedback</li>
             </ul>
           </div>
           <div>
@@ -48,9 +48,9 @@ const Footer = () => {
           </div>
           <div>
             <ul className={styles.ultag}>
-              <li className={styles.lis}>KFC India</li>
-              <li onClick={()=>navigate("/about")} className={styles.lis}>About KFC</li>
-              <li className={styles.lis}>KFC Care</li>
+              <li className={styles.lis}>foodExpress India</li>
+              <li onClick={()=>navigate("/about")} className={styles.lis}>About foodExpress</li>
+              <li className={styles.lis}>foodExpress Care</li>
               <li className={styles.lis}>Careers</li>
               <li className={styles.lis}>Our Golden Past</li>
             </ul>
@@ -64,9 +64,9 @@ const Footer = () => {
           <a
             className={styles.link}
             target="#"
-            href="https://restaurants.kfc.co.in/"
+            href="https://restaurants.foodExpress.co.in/"
           >
-            Find a KFC
+            Find a foodExpress
           </a>
         </div>
         <div className={styles.socialbtns}>
@@ -86,7 +86,7 @@ const Footer = () => {
         </div>
         <div className={styles.uls}>
           <ul className={styles.ultag}>
-            <li className={styles.lis}>KFC Food</li>
+            <li className={styles.lis}>foodExpress Food</li>
             <li className={styles.lis}>Menu</li>
             <li className={styles.lis}>Order Lookup</li>
             <li className={styles.lis}>Gift Card</li>
@@ -95,7 +95,7 @@ const Footer = () => {
             <li className={styles.lis}>Support</li>
             <li className={styles.lis}>Get Help</li>
             <li className={styles.lis}>Contact Us</li>
-            <li className={styles.lis}>KFC Feedback</li>
+            <li className={styles.lis}>foodExpress Feedback</li>
           </ul>
           <ul className={styles.ultag}>
             <li className={styles.lis}>Legal</li>
@@ -105,15 +105,15 @@ const Footer = () => {
             <li className={styles.lis}>Caution Notice</li>
           </ul>
           <ul className={styles.ultag}>
-            <li className={styles.lis}>KFC India</li>
-            <li className={styles.lis}>About KFC</li>
-            <li className={styles.lis}>KFC Care</li>
+            <li className={styles.lis}>foodExpress India</li>
+            <li className={styles.lis}>About foodExpress</li>
+            <li className={styles.lis}>foodExpress Care</li>
             <li className={styles.lis}>Careers</li>
             <li className={styles.lis}>Our Golden Past</li>
           </ul>
         </div>
         <div className={styles.fanda}>
-          <div className={styles.findtag}>Find a KFC</div>
+          <div className={styles.findtag}>Find a foodExpress</div>
           <div>
             <img
               src="https://images.ctfassets.net/wtodlh47qxpt/6BdZsyjLn64c06uCIE73d1/fb530f5d5231533b049463f6c7e8a2b1/google_play.svg"
@@ -132,7 +132,7 @@ const Footer = () => {
       <div className={styles.footer2}>
         <div className={styles.f2ch}></div>
         <div className={styles.f22ch}>
-          Copyright © KFC Corporation 2021 All Rights Reserved
+          Copyright © foodExpress Corporation 2021 All Rights Reserved
         </div>
         <div className={styles.f2ch}></div>
       </div>
