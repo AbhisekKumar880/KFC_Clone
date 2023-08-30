@@ -28,7 +28,7 @@ setSignStatus1(SignStatus)
         <div  className={styles.subpars}>
           <img onClick={()=>navigate("/")}
             className={styles.logoofkfc}
-            src="https://online.kfc.co.in/static/media/kfcLogo.492728c6.svg"
+            src="https://foodexpress.app/storage/app/public/business/2023-03-16-6413256d977dd.png"
             alt="ddd"
           />
           <div onClick={()=>navigate("/menu")} className={styles.fornavmenu}>
