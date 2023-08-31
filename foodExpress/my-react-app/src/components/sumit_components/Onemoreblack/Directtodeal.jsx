@@ -7,7 +7,7 @@ const Directtodeal = () => {
     <div className={styles.main}>
       <div style={{ width: "30%" }}></div>
 
-      <div className={styles.splitbet}>
+      {/* <div className={styles.splitbet}>
         <div className={styles.lines}>
           <div className={styles.line}></div>
           <div className={styles.line}></div>
@@ -58,7 +58,7 @@ const Directtodeal = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

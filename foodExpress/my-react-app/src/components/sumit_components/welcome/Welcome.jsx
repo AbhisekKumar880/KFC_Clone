@@ -10,7 +10,7 @@ const Welcome = () => {
           <div className={styles.line}></div>
           <div className={styles.line}></div>
         </div>
-        <p className={styles.h2t}>WELCOME TO KFC!</p>
+        <p className={styles.h2t}>WELCOME TO foodExpress!</p>
       </div>
       <div className={styles.m2}></div>
     </div>

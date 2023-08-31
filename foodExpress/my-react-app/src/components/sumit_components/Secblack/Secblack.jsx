@@ -7,9 +7,9 @@ const Secblack = () => {
   const [address1, setaddress1]= useState("");
 
   useEffect(()=>{
-let add = JSON.parse(localStorage.getItem("address"))
-console.log(add)
-setaddress1(add)
+// let add = JSON.parse(localStorage.getItem("address"))
+// console.log(add)
+// setaddress1(add)
   },[address1])
 
   return (
