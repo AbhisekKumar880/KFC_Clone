@@ -132,7 +132,7 @@ const Footer = () => {
       <div className={styles.footer2}>
         <div className={styles.f2ch}></div>
         <div className={styles.f22ch}>
-          Copyright © foodExpress Corporation 2021 All Rights Reserved
+          Copyright © foodExpress Corporation 2023 All Rights Reserved
         </div>
         <div className={styles.f2ch}></div>
       </div>
