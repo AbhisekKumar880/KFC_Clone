@@ -37,6 +37,10 @@ export const Checkout = () => {
   }, [payMth]);
 
   const handleCheckout = () =>{
+    // handlechange();
+    // let name = document.getElementById("name").value;
+    // let phn = document.getElementById("phn").value;
+    // let mail = document.getElementById("mail").value;
     navigate("/ordered");
     dispatch(RemoveAll());
   } 
@@ -73,6 +77,7 @@ export const Checkout = () => {
                 name="full_name"
                 onChange={handlechange}
                 className={styles.inp}
+                id="name"
               />
               <br />
               <input
@@ -81,6 +86,7 @@ export const Checkout = () => {
                 name="phone_no"
                 onChange={handlechange}
                 className={styles.inp}
+                id="phn"
               />
               <br />
               <input
@@ -89,6 +95,7 @@ export const Checkout = () => {
                 name="email"
                 onChange={handlechange}
                 className={styles.inp}
+                id="mail"
               />
               <br />
               <input
