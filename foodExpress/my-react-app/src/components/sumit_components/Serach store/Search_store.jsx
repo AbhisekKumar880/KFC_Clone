@@ -15,7 +15,7 @@ export const Search_store = ({ setactivePopup,address1, setaddress1 }) => {
           <i className="fa-solid fa-angle-left"></i>
         </div>
         <div>
-          <h1>SELECT A KFC</h1>
+          <h1>SELECT A foodExpress</h1>
         </div>
         <div>
           <button onClick={() => setactivePopup(false)}>X</button>
