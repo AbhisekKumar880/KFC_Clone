@@ -9,13 +9,13 @@
     flex-direction: column;
     width:40%;
     height:100%;
-    /* border: rgb(142, 193, 13) 2px solid; */
+    
     align-items: flex-start;
 }
 .m2{
     width:60%;
     height:100%;
-    /* border: red 2px solid; */
+    
 }
 .lines{
     width: 50%;
@@ -23,9 +23,9 @@
     display: flex;
     flex-direction: row;
     gap: 8px;
-    /* border: 2px solid red; */
+    
     margin-left: 30%;
-    /* align-items: flex-start; */
+    
     margin-top: -4px;
 }
 .line{

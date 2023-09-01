@@ -1,18 +1,18 @@
 #cartdiv1 {
-  /* border:solid red 1px; */
+  
   display: flex;
   margin: auto 10%;
   background-color: #f8f7f5;
   height: 600px;
 }
 #cartdiv2 {
-  /* border:solid red 1px; */
+  
   display: flex;
   margin: auto 10%;
 }
 #items {
   width: 60%;
-  /* border: solid black 1px; */
+  
 }
 #subtotal {
   width: 33%;
@@ -30,13 +30,13 @@
 #R_all {
   display: flex;
   justify-content: space-between;
-  /* margin: auto 5%; */
+  
 }
 #R_all div {
   border: solid black 1px;
   padding: 10px 50px;
   border-radius: 25px;
-  /* margin-right: 30px; */
+  
   cursor: pointer;
 }
 #R_all div:hover {
@@ -44,7 +44,7 @@
   color: white;
 }
 #cartdiv11 {
-  /* border: solid black 1px; */
+  
   padding-left: 10%;
   padding-top: 100px;
   width: 50%;
@@ -76,7 +76,7 @@
   margin: 2% 10%;
 }
 #faqDiv > div:first-child {
-  /* border: solid black 1px; */
+  
   width: 48%;
   padding-left: 10px;
 }
@@ -85,7 +85,7 @@
   margin-top: 50px;
 }
 #faqDiv > div:last-child {
-  /* border: solid black 1px; */
+  
   width: 45%;
 }
 #still{

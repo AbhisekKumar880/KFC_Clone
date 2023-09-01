@@ -31,7 +31,7 @@ export const Deals = () => {
           order. Only for registered users.
         </h5>
         <div className="hotncrispydiv">
-          {/* <button className="view-details-btn">View Details</button> */}
+          
           <a id="link" href="https://online.kfc.co.in/offers">View Details</a>
           <button className="redeem-btn" onClick={handle}>Redeem</button>
         </div>

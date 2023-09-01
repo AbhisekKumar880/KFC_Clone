@@ -43,7 +43,7 @@ export default function Cart() {
         </div>
         <h1>MY CART</h1>
       </div>
-      {/* conditional rendering when empty it will show */}
+      
       {cartData.length == 0 ? (
         <div id={styles.cartdiv1}>
           <div id={styles.cartdiv11}>
@@ -61,7 +61,7 @@ export default function Cart() {
       ) : (
         <div id={styles.cartdiv2}>
           <div id={styles.items}>
-            {/* **********************************maping data ************* */}
+            
             {cartData.map((elem) => (
               <CartCard key={elem.id} {...elem} />
             ))}

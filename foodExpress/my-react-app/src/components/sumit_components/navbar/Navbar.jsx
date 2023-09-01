@@ -3,12 +3,12 @@ import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import styles from "../navbar/Navbar.module.css";
 import Secblack from "../Secblack/Secblack"
-// import mob from "../../sraban_components/Signin"
+
 const Navbar = () => { 
   const [SignStatus1,setSignStatus1]= useState(0)
   
   const data = useSelector((state) => state.cartdata.cartdata)
-  // const data=[];
+  
   const items = data.reduce((acc, elem) => {
     return (acc += elem.qty);
   }, 0);
@@ -32,7 +32,7 @@ setSignStatus1(SignStatus)
             alt="ddd"
           />
           <div onClick={()=>navigate("/menu")} className={styles.fornavmenu}>
-            {/* <Link to="">Menu</Link> */}
+            
             Menu
           </div>
           <div onClick={()=>navigate("/deals")} className={styles.fornavmenu}>Deals</div>

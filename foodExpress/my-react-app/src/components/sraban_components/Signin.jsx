@@ -13,8 +13,8 @@ let handlechange=(e)=>{
     console.log(e.target.value)}
 
     let sendmecode=()=>{
-        // console.log(number)
-        // localStorage.setItem("number",JSON.stringify(number))
+        
+        
         alert("Your One Time Password is 6894")
         navigator("/Otp")
         let mob = document.getElementbyId("phone").value;

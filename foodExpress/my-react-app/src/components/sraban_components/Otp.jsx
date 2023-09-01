@@ -28,7 +28,7 @@ export const Otp =()=>{
    },[sec])
 
    const handleOtp =()=>{
-    // localStorage.setItem("signed", 1)
+    
     let otp = document.getElementById("phone").value;
     if(otp == 6894){
         navigate("/")
@@ -50,12 +50,12 @@ return(
         <div className={styles.siocawp}>WE JUST TEXTED YOU</div>
 
         <div className={styles.displayPhoneNumber}>Please enter the verification code we just sent to {phone}</div>
-        {/* <div className={styles.differentNumber}>Different number?</div> */}
+        
 
         <input  className={styles.otp} id="phone" type="number" placeholder="OTP*"   />
 
         <div className={styles.displayPhoneNumber} >Your code will expire in {sec} sec</div>
-        {/* <div className={styles.differentNumber}>Resend the Code</div> */}
+        
 
         <div class={styles.skipBtnDiv}>
                 <button onClick={handleOtp} class={styles.skipBtn} id="skipBtn" >Submit</button>

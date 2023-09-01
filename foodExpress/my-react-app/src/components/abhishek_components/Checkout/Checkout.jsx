@@ -37,10 +37,7 @@ export const Checkout = () => {
   }, [payMth]);
 
   const handleCheckout = () =>{
-    // handlechange();
-    // let name = document.getElementById("name").value;
-    // let phn = document.getElementById("phn").value;
-    // let mail = document.getElementById("mail").value;
+   
     navigate("/ordered");
     dispatch(RemoveAll());
   } 
@@ -66,7 +63,7 @@ export const Checkout = () => {
             <div>
               <div>
                 <h1>Contact Info</h1>
-                {/* <button onClick={() => navigate("/login")}>Sign in</button> */}
+                
               </div>
             </div>
             <div>
