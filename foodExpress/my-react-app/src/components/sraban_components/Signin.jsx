@@ -29,7 +29,7 @@ return(
         
         
         </div>
-        <div className={styles.logoimg}><img src="https://login.kfc.co.in/auth/resources/1vkce/login/kfcIndiaLoginUIDev_2021_10_27_16_49/images/KFC_logo.svg"
+        <div className={styles.logoimg}><img src="https://foodexpress.app/storage/app/public/business/2023-03-16-6413256d977dd.png"
                  alt="noimg" /></div>
         <div className={styles.siocawp}>LET’S SIGN IN OR CREATE ACCOUNT WITH YOUR PHONE NUMBER!</div>
 
